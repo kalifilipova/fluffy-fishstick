@@ -24,18 +24,12 @@
                 background: rgb(155, 206, 147);
             }
     
-    
-            img{
-                max-width: 60%;
-                box-shadow: 10px 10px 10px rgb(105, 142, 99);
-    
-            }
-    
             h2{
                 color: white;
                 font-family: Comic Sans MS;
                 padding: 5px;
                 box-shadow: 6px 6px 6px rgb(105, 142, 99);
+				font-size: 1.8em; 
             }  
            
             *{
@@ -51,17 +45,33 @@
                 padding: 5px;
                 box-shadow: 6px 6px 6px rgb(105, 142, 99);
                 text-align:center; 
+				font-size: 1.3em; 
             }  
 
             .column1{
                 width: 68%;
                 float:left;
             }
+			
+			.test {
+			width: 1px;
+			}
+			
+			
+			.image {
+			border-radius: 10px;
+			height: 85vh;
+			box-shadow: 10px 10px 10px rgb(105, 142, 99);
+			width: 50vw;
+			}
 
-            .column2{
-                width: 28%;
-                float: right;
-            }
+			.second-image {
+			border-radius: 10px;
+			box-shadow: 10px 10px 10px rgb(105, 142, 99);
+			}
+
+			.column2 {
+			}
         
         </style>
     
@@ -84,10 +94,22 @@
         <div class="item">
         </div>
 
-        <div class="item">
-            <img src="2.jpg" >
+        <div>
+            <img class="image" src="1.jpg" >
 
     </div>
-        
+	
+	<div class="column2">
+	
+		<h2 class="second-header">Начин на живот и хранене</h2>
+		<p class="second-text">Ленивците се придвижват по клоните на дърветата, където те се захващат здраво с огромните си нокти. По цял ден тези абсолютни вегетарианци висят заспали по най-високите клони, където вечер се хранят с листа, цветове и плодове. </p>
+		<br>
+       
+	   <div>
+            <img class="second-image" src="2.jpg" >
+
+    </div>
+		
+	</div>
 </body>
 </html>
